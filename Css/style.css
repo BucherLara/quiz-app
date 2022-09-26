@@ -29,3 +29,7 @@ article {
   padding-top: 20px;
   /* margin: 25px auto; */
 }
+.flex-container {
+  display: flex;
+  justify-items: space-between;
+}
