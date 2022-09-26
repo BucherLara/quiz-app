@@ -46,3 +46,13 @@ img {
 button {
   border-radius: 5%;
 }
+.flex-container {
+  flex-direction: row;
+  /* : flex-start; */
+  border-style: none;
+  height: 20px;
+}
+
+p { justify-content:flex-start;s
+  /* border-style: solid; */
+}
