@@ -1,19 +1,30 @@
-article {
-  width: 100%;
+.question-card {
+  /* width: 100%; */
   text-align: center;
-  padding-bottom: 0px;
-  padding-top: 20px;
+  /* padding-bottom: 0px; */
+  /* padding-top: 20px; */
+  width: 85%;
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 25px auto;
+  border-radius: 10px;
+  border-width: 2px;
 }
 p {
   justify-content: flex-start;
 }
-section {
-  width: 85%;
-  border-style: solid;
-  border-color: black;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  margin: 25px auto;
-  border-radius: 2%;
-  border-width: 2px;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-style: none;
+  gap: 10px;
+  margin-top: 30px;
+  padding-left: 15px;
+  /* height: 20px; */
+}
+.answer {
+  display: none;
 }
