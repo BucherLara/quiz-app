@@ -1,0 +1,19 @@
+article {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 20px;
+}
+p {
+  justify-content: flex-start;
+}
+section {
+  width: 85%;
+  border-style: solid;
+  border-color: black;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin: 25px auto;
+  border-radius: 2%;
+  border-width: 2px;
+}
