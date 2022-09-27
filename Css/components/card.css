@@ -11,9 +11,12 @@
   margin: 25px auto;
   border-radius: 10px;
   border-width: 2px;
+  background-color: blueviolet;
 }
 p {
   justify-content: flex-start;
+  flex-wrap: flex;
+  border: 1px;
 }
 .flex-container {
   display: flex;
@@ -27,4 +30,8 @@ p {
 }
 .answer {
   display: none;
+}
+h1 {
+  padding-bottom: 10px;
+  font-size: 35px;
 }

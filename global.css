@@ -1,9 +1,28 @@
+@font-face {
+  font-family: "DM Sans", sans-serif;
+  src: url(./Css/font/DMSans-Medium.ttf);
+}
+* {
+  /* background-color: red; */
+  font-family: "DM Sans", sans-serif;
+  box-sizing: border-box;
+}
 body {
   align-items: center;
   border-style: solid;
   width: 500px;
   margin: 30px auto;
   text-align: center;
-  border-radius: 5%;
+  border-radius: 20px;
+  background-color: rosybrown;
+  color: bisque;
 }
-/* schrift */
+/* main {
+  background-color: red;
+} */
+.body {
+  background-color: aqua;
+}
+header {
+  background-color: aqua;
+}
