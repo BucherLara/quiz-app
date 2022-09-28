@@ -3,8 +3,21 @@
   justify-content: space-between;
   padding-top: 10px;
   margin: 10px;
-  background-color: hotpink;
+  background-color: #d9bb5b;
+  /* position: sticky; */
+  border: black solid 1px;
+  border-radius: 10px;
+  width: 100%;
+  /* margin-top: -25px; */
+  top: 300px;
 }
+footer {
+  position: sticky;
+  bottom: 0px;
+}
+/* .border {
+  position: relative;
+} */
 
 /* .border {
   border-top: solid;

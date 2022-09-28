@@ -10,12 +10,17 @@
   margin: 25px auto;
   border-radius: 10px;
   border-width: 2px;
-  background-color: blueviolet;
+  background-color: #5b6cd9;
+  position: relative;
 }
 p {
   justify-content: flex-start;
   flex-wrap: wrap;
-  border: 1px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #1f2e8c;
+  color: #d9bb5b;
 }
 .flex-container {
   display: flex;
@@ -32,6 +37,14 @@ p {
 }
 h1 {
   padding-bottom: 10px;
-  font-size: 35px;
+  font-size: 25px;
+  color: #d9bb5b;
+  font-weight: lighter;
+
   /* width: 50%; */
+}
+.bookmark {
+  position: absolute;
+  top: -30px;
+  right: 30px;
 }
