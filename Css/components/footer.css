@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin: 10px;
+  background-color: hotpink;
+}
+
+/* .border {
+  border-top: solid;
+  height: 10px;
+} */
