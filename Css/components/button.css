@@ -2,4 +2,10 @@ button {
   border-radius: 5%;
   padding: 10px;
   margin-bottom: -10px;
+  background-color: #d9bb5b;
+  box-shadow: 2.5px 5px;
+}
+button:hover {
+  background-color: #8c762d;
+  cursor: pointer;
 }
